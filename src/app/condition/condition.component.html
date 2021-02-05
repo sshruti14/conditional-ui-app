@@ -1,0 +1,23 @@
+<mat-grid-list cols = "4" rowHeight = "400px" gutterSize="16px" >
+
+  <mat-grid-tile  *ngFor="let condition of conditions.conditions">
+
+
+    <mat-card >
+
+      <img mat-card-image src={{condition.image}} >
+
+      <mat-card-content>
+        <h3>{{condition.label}}</h3>
+        <p>
+          {{condition.snippet}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+
+
+  </mat-grid-tile>
+
+
+
+</mat-grid-list>

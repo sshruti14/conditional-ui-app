@@ -1,0 +1,18 @@
+mat-grid-tile {
+  background: lightblue;
+}
+
+/* .tile-image {
+  width:100%;
+  height: auto;
+} */
+
+.mat-card{
+  display:flex;
+  flex-direction: column;
+}
+
+.mat-card-content{
+  flex-grow: 1;
+  overflow: auto;
+}
